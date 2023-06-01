@@ -58,5 +58,5 @@ jobs:
       run: >
         aws deploy create-deployment --application-name be-23-yoonhee-kim
         --deployment-config-name CodeDeplooyDefault.AllAtOnce
-        --deployment-group-name be-23-group
+        --deployment-group-name be-23-yoonhee-kim-group
         --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=practice-deploy.zip
